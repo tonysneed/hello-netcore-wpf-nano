@@ -5,7 +5,11 @@ VisualStudioVersion = 16.0.30204.135
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWpfCore", "HelloWpfCore\HelloWpfCore.csproj", "{858EEE76-1523-438B-905B-BEE0344E642D}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloWpfCore.Console", "HelloWpfCore.Console\HelloWpfCore.Console.csproj", "{878E67E6-F0BA-4268-BAB4-5574DD2A99D7}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{AD83D615-0403-40B2-BA77-AA5CEFF5FD88}"
+	ProjectSection(SolutionItems) = preProject
+		Dockerfile = Dockerfile
+		ReadMe.md = ReadMe.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +21,6 @@ Global
 		{858EEE76-1523-438B-905B-BEE0344E642D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{858EEE76-1523-438B-905B-BEE0344E642D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{858EEE76-1523-438B-905B-BEE0344E642D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{878E67E6-F0BA-4268-BAB4-5574DD2A99D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{878E67E6-F0BA-4268-BAB4-5574DD2A99D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{878E67E6-F0BA-4268-BAB4-5574DD2A99D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{878E67E6-F0BA-4268-BAB4-5574DD2A99D7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
